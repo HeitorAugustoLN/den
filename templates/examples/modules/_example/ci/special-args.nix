@@ -27,8 +27,8 @@ in
   };
 
   den.default.includes = [
-    den._.self'
-    den._.inputs'
+    den.provides.self'
+    den.provides.inputs'
   ];
 
   den.aspects.rockhopper.nixos.imports = [ testModule ];
